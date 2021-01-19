@@ -1,157 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.WebApp\\Alura.WebAPI.WebApp.csproj": {}
+    "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.WebApp\\Alura.WebAPI.WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Livros\\Alura.WebAPI.DAL.Livros.csproj": {
+    "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Livros\\Alura.WebAPI.DAL.Livros.csproj",
-        "projectName": "Alura.WebAPI.DAL.Livros",
-        "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Livros\\Alura.WebAPI.DAL.Livros.csproj",
-        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Livros\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp2.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp2.1": {
-            "projectReferences": {
-              "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj": {
-                "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp2.1": {
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[2.1.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[2.1.0, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Usuarios\\Alura.WebAPI.DAL.Usuarios.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Usuarios\\Alura.WebAPI.DAL.Usuarios.csproj",
-        "projectName": "Alura.WebAPI.DAL.Usuarios",
-        "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Usuarios\\Alura.WebAPI.DAL.Usuarios.csproj",
-        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Usuarios\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp2.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp2.0": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp2.0": {
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity": {
-              "target": "Package",
-              "version": "[2.1.0, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[2.1.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[2.1.0, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.0, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj",
         "projectName": "Alura.WebAPI.Model",
-        "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj",
+        "projectPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj",
         "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Model\\obj\\",
+        "outputPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -206,14 +66,14 @@
         }
       }
     },
-    "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Seguranca\\Alura.WebAPI.Seguranca.csproj": {
+    "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Seguranca\\Alura.WebAPI.Seguranca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Seguranca\\Alura.WebAPI.Seguranca.csproj",
+        "projectUniqueName": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Seguranca\\Alura.WebAPI.Seguranca.csproj",
         "projectName": "Alura.WebAPI.Seguranca",
-        "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Seguranca\\Alura.WebAPI.Seguranca.csproj",
+        "projectPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Seguranca\\Alura.WebAPI.Seguranca.csproj",
         "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Seguranca\\obj\\",
+        "outputPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Seguranca\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -264,14 +124,14 @@
         }
       }
     },
-    "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.WebApp\\Alura.WebAPI.WebApp.csproj": {
+    "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.WebApp\\Alura.WebAPI.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.WebApp\\Alura.WebAPI.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.WebApp\\Alura.WebAPI.WebApp.csproj",
         "projectName": "Alura.WebAPI.WebApp",
-        "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.WebApp\\Alura.WebAPI.WebApp.csproj",
+        "projectPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.WebApp\\Alura.WebAPI.WebApp.csproj",
         "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.WebApp\\obj\\",
+        "outputPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -290,17 +150,11 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Livros\\Alura.WebAPI.DAL.Livros.csproj": {
-                "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Livros\\Alura.WebAPI.DAL.Livros.csproj"
+              "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj": {
+                "projectPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj"
               },
-              "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Usuarios\\Alura.WebAPI.DAL.Usuarios.csproj": {
-                "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Usuarios\\Alura.WebAPI.DAL.Usuarios.csproj"
-              },
-              "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj": {
-                "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj"
-              },
-              "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Seguranca\\Alura.WebAPI.Seguranca.csproj": {
-                "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Seguranca\\Alura.WebAPI.Seguranca.csproj"
+              "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Seguranca\\Alura.WebAPI.Seguranca.csproj": {
+                "projectPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Seguranca\\Alura.WebAPI.Seguranca.csproj"
               }
             }
           }
@@ -334,11 +188,11 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[2.1.10, )"
+              "version": "[2.1.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[6.8.0, )"
+              "version": "[5.2.4, )"
             }
           },
           "imports": [

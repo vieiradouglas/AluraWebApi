@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Alura.WebApi.AuthProvider
+namespace Alura.WebAPI.AuthProvider
 {
     public class Program
     {

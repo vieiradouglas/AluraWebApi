@@ -6,7 +6,7 @@ using Alura.ListaLeitura.Modelos;
 using Alura.ListaLeitura.Persistencia;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.AspNetCore.Mvc.Formatters;
 
 namespace Alura.ListaLeitura.Api.Controllers
 {
@@ -37,7 +37,6 @@ namespace Alura.ListaLeitura.Api.Controllers
             {
                 return NotFound();
             }
-
             return Ok(model.ToApi());
         }
 
@@ -45,9 +44,9 @@ namespace Alura.ListaLeitura.Api.Controllers
         public IActionResult ImagemCapa(int id)
         {
             byte[] img = _repo.All
-                 .Where(l => l.Id == id)
-                 .Select(l => l.ImagemCapa)
-                 .FirstOrDefault();
+                .Where(l => l.Id == id)
+                .Select(l => l.ImagemCapa)
+                .FirstOrDefault();
             if (img != null)
             {
                 return File(img, "image/png");
@@ -56,26 +55,25 @@ namespace Alura.ListaLeitura.Api.Controllers
         }
 
         [HttpPost]
-        public IActionResult Incluir([FromBody] LivroUpload model)
+        public IActionResult Incluir([FromForm] LivroUpload model)
         {
             if (ModelState.IsValid)
             {
                 var livro = model.ToLivro();
                 _repo.Incluir(livro);
                 var uri = Url.Action("Recuperar", new { id = livro.Id });
-                return Created(uri, livro); //201 
+                return Created(uri, livro); //201
             }
-
             return BadRequest();
         }
 
         [HttpPut]
-        public IActionResult Alterar([FromBody] LivroUpload model)
+        public IActionResult Alterar([FromForm] LivroUpload model)
         {
             if (ModelState.IsValid)
             {
                 var livro = model.ToLivro();
-                if (model.Capa == null) 
+                if (model.Capa == null)
                 {
                     livro.ImagemCapa = _repo.All
                         .Where(l => l.Id == livro.Id)
@@ -83,7 +81,7 @@ namespace Alura.ListaLeitura.Api.Controllers
                         .FirstOrDefault();
                 }
                 _repo.Alterar(livro);
-                return Ok(); //200 
+                return Ok(); //200
             }
             return BadRequest();
         }
@@ -97,8 +95,7 @@ namespace Alura.ListaLeitura.Api.Controllers
                 return NotFound();
             }
             _repo.Excluir(model);
-            return NoContent(); //204
+            return NoContent(); //203
         }
-
     }
 }

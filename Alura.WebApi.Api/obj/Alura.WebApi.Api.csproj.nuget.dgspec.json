@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Alura.WebAPI\\Alura.WebApi.Api\\Alura.WebApi.Api.csproj": {}
+    "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Api\\Alura.WebAPI.Api.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Alura.WebAPI\\Alura.WebApi.Api\\Alura.WebApi.Api.csproj": {
+    "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Api\\Alura.WebAPI.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Alura.WebAPI\\Alura.WebApi.Api\\Alura.WebApi.Api.csproj",
-        "projectName": "Alura.WebApi.Api",
-        "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebApi.Api\\Alura.WebApi.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Api\\Alura.WebAPI.Api.csproj",
+        "projectName": "Alura.WebAPI.Api",
+        "projectPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Api\\Alura.WebAPI.Api.csproj",
         "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebApi.Api\\obj\\",
+        "outputPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Livros\\Alura.WebAPI.DAL.Livros.csproj": {
-                "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Livros\\Alura.WebAPI.DAL.Livros.csproj"
+              "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.DAL.Livros\\Alura.WebAPI.DAL.Livros.csproj": {
+                "projectPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.DAL.Livros\\Alura.WebAPI.DAL.Livros.csproj"
               },
-              "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj": {
-                "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj"
+              "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj": {
+                "projectPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj"
               }
             }
           }
@@ -53,11 +53,6 @@
               "target": "Package",
               "version": "[2.1.1, )",
               "autoReferenced": true
-            },
-            "Microsoft.AspNetCore.Razor.Design": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -80,14 +75,14 @@
         }
       }
     },
-    "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Livros\\Alura.WebAPI.DAL.Livros.csproj": {
+    "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.DAL.Livros\\Alura.WebAPI.DAL.Livros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Livros\\Alura.WebAPI.DAL.Livros.csproj",
+        "projectUniqueName": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.DAL.Livros\\Alura.WebAPI.DAL.Livros.csproj",
         "projectName": "Alura.WebAPI.DAL.Livros",
-        "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Livros\\Alura.WebAPI.DAL.Livros.csproj",
+        "projectPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.DAL.Livros\\Alura.WebAPI.DAL.Livros.csproj",
         "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.DAL.Livros\\obj\\",
+        "outputPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.DAL.Livros\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -106,8 +101,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj": {
-                "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj"
+              "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj": {
+                "projectPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj"
               }
             }
           }
@@ -150,14 +145,14 @@
         }
       }
     },
-    "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj": {
+    "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj",
         "projectName": "Alura.WebAPI.Model",
-        "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj",
+        "projectPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj",
         "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Model\\obj\\",
+        "outputPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

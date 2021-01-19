@@ -9,12 +9,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Xml" Version="2.1.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.0" />
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.2.4" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Alura.WebAPI.DAL.Livros\Alura.WebAPI.DAL.Livros.csproj" />
-    <ProjectReference Include="..\Alura.WebAPI.DAL.Usuarios\Alura.WebAPI.DAL.Usuarios.csproj" />
     <ProjectReference Include="..\Alura.WebAPI.Model\Alura.WebAPI.Model.csproj" />
     <ProjectReference Include="..\Alura.WebAPI.Seguranca\Alura.WebAPI.Seguranca.csproj" />
   </ItemGroup>
