@@ -4,11 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Alura.ListaLeitura.Modelos;
 using Alura.ListaLeitura.Persistencia;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Formatters;
 
-
-namespace Alura.WebAPI.WebApp.Api
+namespace Alura.ListaLeitura.Api.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class LivrosController : ControllerBase
@@ -35,7 +37,6 @@ namespace Alura.WebAPI.WebApp.Api
             {
                 return NotFound();
             }
-
             return Ok(model.ToApi());
         }
 
@@ -43,9 +44,9 @@ namespace Alura.WebAPI.WebApp.Api
         public IActionResult ImagemCapa(int id)
         {
             byte[] img = _repo.All
-                 .Where(l => l.Id == id)
-                 .Select(l => l.ImagemCapa)
-                 .FirstOrDefault();
+                .Where(l => l.Id == id)
+                .Select(l => l.ImagemCapa)
+                .FirstOrDefault();
             if (img != null)
             {
                 return File(img, "image/png");
@@ -54,26 +55,25 @@ namespace Alura.WebAPI.WebApp.Api
         }
 
         [HttpPost]
-        public IActionResult Incluir([FromBody] LivroUpload model)
+        public IActionResult Incluir([FromForm] LivroUpload model)
         {
             if (ModelState.IsValid)
             {
                 var livro = model.ToLivro();
                 _repo.Incluir(livro);
                 var uri = Url.Action("Recuperar", new { id = livro.Id });
-                return Created(uri, livro); //201 
+                return Created(uri, livro); //201
             }
-
             return BadRequest();
         }
 
         [HttpPut]
-        public IActionResult Alterar([FromBody] LivroUpload model)
+        public IActionResult Alterar([FromForm] LivroUpload model)
         {
             if (ModelState.IsValid)
             {
                 var livro = model.ToLivro();
-                if (model.Capa == null) 
+                if (model.Capa == null)
                 {
                     livro.ImagemCapa = _repo.All
                         .Where(l => l.Id == livro.Id)
@@ -81,7 +81,7 @@ namespace Alura.WebAPI.WebApp.Api
                         .FirstOrDefault();
                 }
                 _repo.Alterar(livro);
-                return Ok(); //200 
+                return Ok(); //200
             }
             return BadRequest();
         }
@@ -95,8 +95,7 @@ namespace Alura.WebAPI.WebApp.Api
                 return NotFound();
             }
             _repo.Excluir(model);
-            return NoContent(); //204
+            return NoContent(); //203
         }
-
     }
 }

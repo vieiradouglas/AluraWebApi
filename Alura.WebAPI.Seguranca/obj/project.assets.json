@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Seguranca\\Alura.WebAPI.Seguranca.csproj",
+      "projectUniqueName": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Seguranca\\Alura.WebAPI.Seguranca.csproj",
       "projectName": "Alura.WebAPI.Seguranca",
-      "projectPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Seguranca\\Alura.WebAPI.Seguranca.csproj",
+      "projectPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Seguranca\\Alura.WebAPI.Seguranca.csproj",
       "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Alura.WebAPI\\Alura.WebAPI.Seguranca\\obj\\",
+      "outputPath": "C:\\Users\\Douglas\\AluraWebApi\\Alura.WebAPI.Seguranca\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
